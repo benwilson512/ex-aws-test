@@ -1,0 +1,2 @@
+defmodule ExAwsTest do
+end

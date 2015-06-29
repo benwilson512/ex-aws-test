@@ -1,0 +1,3 @@
+%{"aws_auth": {:hex, :aws_auth, "0.2.3"},
+  "ex_aws": {:hex, :ex_aws, "0.3.0"},
+  "timex": {:hex, :timex, "0.13.5"}}

@@ -1,5 +1,5 @@
 %{"aws_auth": {:hex, :aws_auth, "0.2.3"},
-  "ex_aws": {:git, "git://github.com/cargosense/ex_aws.git", "956e77829565745b9d191ed8daed9c0f1ec31b5a", [branch: "fix_42"]},
+  "ex_aws": {:git, "git://github.com/cargosense/ex_aws.git", "07a95359a693877600866922b7d1b867262429b8", [branch: "fix_42"]},
   "hackney": {:hex, :hackney, "1.1.0"},
   "httpoison": {:hex, :httpoison, "0.6.2"},
   "idna": {:hex, :idna, "1.0.2"},

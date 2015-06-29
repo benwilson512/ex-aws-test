@@ -28,7 +28,7 @@ defmodule ExAwsTest.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      ex_aws: "~> 0.3.0",
+      {:ex_aws, github: "cargosense/ex_aws", branch: "fix_42"},
       poison:    "~> 1.2.0",
       httpoison: "~> 0.6.0"
     ]

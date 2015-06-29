@@ -14,7 +14,7 @@ defmodule ExAwsTest.Mixfile do
   #
   # Type `mix help compile.app` for more information
   def application do
-    [applications: [:logger, :ex_aws]]
+    [applications: [:logger, :ex_aws, :poison, :httpoison]]
   end
 
   # Dependencies can be Hex packages:
@@ -27,6 +27,10 @@ defmodule ExAwsTest.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    [{:ex_aws, "~> 0.3.0"}]
+    [
+      ex_aws: "~> 0.3.0",
+      poison:    "~> 1.2.0",
+      httpoison: "~> 0.6.0"
+    ]
   end
 end
